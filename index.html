@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>Cloth Physics</title>
+    <title>MeshAR</title>
     <style>
         html {
             box-sizing: border-box;
@@ -137,14 +137,14 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/build.loader.js";
+        const loaderUrl = buildUrl + "/build new.loader.js";
         const config = {
-            dataUrl: buildUrl + "/35812aea9d0fcf5b90e3fbaafe76c60f.data.br",
-            frameworkUrl: buildUrl + "/34d512f5c9e585ae6522fda44612daa7.js.br",
-            codeUrl: buildUrl + "/6fbee143dd5a82081040d3b6d0ca15d9.wasm.br",
+            dataUrl: buildUrl + "/c2f39ad3a6bd2c6390f509af0e8dbb0e.data",
+            frameworkUrl: buildUrl + "/34d512f5c9e585ae6522fda44612daa7.js",
+            codeUrl: buildUrl + "/6fbee143dd5a82081040d3b6d0ca15d9.wasm",
             streamingAssetsUrl: "StreamingAssets",
-            companyName: "Zappar",
-            productName: "Cloth Physics",
+            companyName: "MeshAG",
+            productName: "MeshAR",
             productVersion: "0.1",
         //Useful when used along with Filename as Hashes option
             cacheControl: function (url) {
